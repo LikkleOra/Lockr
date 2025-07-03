@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "tailwindcss";
-@import "tw-animate-css";
+/* Removed @import "tw-animate-css"; as it might be causing issues */
  
 @custom-variant dark (&:is(.dark *));
  
